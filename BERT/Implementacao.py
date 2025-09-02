@@ -64,7 +64,7 @@ def aplicar_regras_tipo2(df):
     return df
 
 def main():
-    save_path = "C:/Users/andre/Downloads/ParaODrive-20250608T193115Z-1-001/ParaODrive/ModeloFinal/TreinamentoComMachineLearning/MEU_MODELO_BASE"
+    save_path = "Coloque o local no qual o modelo BERT está salvo"
     train_file = "DadosParaTreino.xlsx"
     test_file = "NovaAmostraTratada.xlsx"
     threshold = 0.50
