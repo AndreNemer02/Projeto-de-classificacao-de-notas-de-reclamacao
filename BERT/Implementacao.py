@@ -67,7 +67,7 @@ def main():
     save_path = "Coloque o local no qual o modelo BERT está salvo"
     train_file = "DadosParaTreino.xlsx"
     test_file = "NovaAmostraTratada.xlsx"
-    threshold = 0.50
+    threshold = 0.85
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"Usando dispositivo: {device}")
